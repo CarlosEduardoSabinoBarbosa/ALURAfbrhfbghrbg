@@ -1,0 +1,37 @@
+@import url('fonts.googleapis.com');
+
+:root {
+    --cor-principal: #3B5474;
+    --cor-secundaria: #0A1C30;
+    --cor-destaque: #00A693;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-primary {
+    color: #fff;
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+}
+
+.btn-primary:hover {
+    background-color: var(--cor-principal);
+    border-color: var(--cor-principal);
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
